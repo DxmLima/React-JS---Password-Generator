@@ -1,0 +1,75 @@
+.App {
+    min-height: 100vh;
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+
+}
+
+.container {
+    width: 350px;
+    margin: 0 auto;
+    padding-top: 200px;
+}
+
+.generator {
+    background: #222;
+    border-radius: 3px;
+    box-shadow: 0px 2px 10px rgba(255, 255, 255, 0.2);
+    padding: 20px;
+}
+
+.generator_header {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.generator_password {
+    position: relative;
+    background: rgb(72, 153, 92);
+    padding: 13px 10px;
+    color: white;
+    height: 46px;
+    margin-bottom: 15px;
+}
+
+.copy_btn {
+    position: absolute;
+    background:  rgb(72, 153, 92);
+    color: rgb(255, 255, 255);
+    border: none;
+    height: 40px;
+    padding: 10px;
+    cursor: pointer;
+    top: 3px;
+    right: 3px;
+}
+
+.generator_btn {
+    background: rgb(72, 153, 92);
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.generator_btn:hover {
+    background: rgb(54, 114, 69);
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-bottom: 15px;
+}
